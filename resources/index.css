@@ -1,3 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F0BA54;
+    display: flex;
+    flex-direction: column;
+}
+
+/* N  A  V  */
+
+nav {
+    height: 5em;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+nav > #before-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 1em;
+}
+
+nav > #before-menu > .before-click {
+    height: 0.5em;
+    width: 2em;
+    background-color: black;
+}
+
+header {
+    height: 20em;
+    width: 100%;
+    background-color: red;
+}
+
+main {
+    height: 40em;
+    width: 100%;
+    background-color: blue;
+}
+
+footer {
+    height: 10em;
+    width: 100%;
+    background-color: aqua;
 }
