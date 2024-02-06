@@ -24,13 +24,27 @@ nav {
 nav > #before-menu {
     display: flex;
     flex-direction: column;
-    gap: 0.5em;
     padding: 1em;
+    display: none;
 }
 
 nav > #before-menu > .before-click {
     height: 0.5em;
     width: 2em;
+    margin: 0.5em;
+    background-color: black;
+}
+
+nav > #after-menu {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    gap: 0.5em;
+}
+
+nav > #after-menu > .after-click {
+    height: 2em;
+    width: 0.5em;
     background-color: black;
 }
 
