@@ -25,21 +25,23 @@ nav > #before-menu {
     display: flex;
     flex-direction: column;
     padding: 1em;
-    display: none;
 }
 
 nav > #before-menu > .before-click {
     height: 0.5em;
     width: 2em;
-    margin: 0.5em;
+    margin: 0.3em;
     background-color: black;
 }
 
 nav > #after-menu {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     padding: 1em;
     gap: 0.5em;
+    display: none;
 }
 
 nav > #after-menu > .after-click {

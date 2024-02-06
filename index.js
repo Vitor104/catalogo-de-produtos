@@ -3,12 +3,12 @@ let after = document.getElementById("after-menu");
 
 function beforeNav () {
     before.style.display = 'none';
-    after.style.display = 'block';
+    after.style.display = "inline-block";
 }
 
 function afterNav() {
     after.style.display = 'none';
-    before.style.display = 'inline-block';
+    before.style.display = "block";
 }
 
 before.addEventListener('click', beforeNav);
