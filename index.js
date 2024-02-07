@@ -3,7 +3,7 @@ let after = document.getElementById("after-menu");
 
 function beforeNav () {
     before.style.display = 'none';
-    after.style.display = "inline-block";
+    after.style.display = "block";
 }
 
 function afterNav() {

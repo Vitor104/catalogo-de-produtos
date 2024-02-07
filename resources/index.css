@@ -18,7 +18,7 @@ nav {
     background-color: white;
     display: flex;
     align-items: center;
-
+    justify-content: space-between
 }
 
 nav > #before-menu {
@@ -30,17 +30,14 @@ nav > #before-menu {
 nav > #before-menu > .before-click {
     height: 0.5em;
     width: 2em;
-    margin: 0.3em;
+    margin: 0.1em;
     background-color: black;
 }
 
 nav > #after-menu {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
     padding: 1em;
-    gap: 0.5em;
     display: none;
 }
 
@@ -48,6 +45,39 @@ nav > #after-menu > .after-click {
     height: 2em;
     width: 0.5em;
     background-color: black;
+    transition: 0.4s;
+}
+
+nav > #after-menu > .one {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+nav > #after-menu > .two {
+    opacity: 0;
+}
+
+nav > #after-menu > .three {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+nav > img {
+    height: 70%;
+    width: 3em;
+}
+
+nav > #title {
+    padding: 0.2em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+nav > #title > h1 {
+    font-size: 17px;
+}
+
+nav > #title > h2 {
+    font-size: 13px;
 }
 
 header {
