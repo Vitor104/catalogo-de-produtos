@@ -15,7 +15,7 @@ body {
 nav {
     height: 5em;
     width: 100%;
-    background-color: white;
+    background-color: #F06D54;
     display: flex;
     align-items: center;
     justify-content: space-between
@@ -74,6 +74,7 @@ nav > #title {
 
 nav > #title > h1 {
     font-size: 17px;
+    color: white;
 }
 
 nav > #title > h2 {
@@ -83,17 +84,17 @@ nav > #title > h2 {
 header {
     height: 20em;
     width: 100%;
-    background-color: red;
+    background-color: #F0BA54;
 }
 
 main {
     height: 40em;
     width: 100%;
-    background-color: blue;
+    background-color: #F06D54;
 }
 
 footer {
     height: 10em;
     width: 100%;
-    background-color: aqua;
+    background-color: #F0BA54;
 }
