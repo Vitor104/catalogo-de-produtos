@@ -85,16 +85,22 @@ nav > #title > h2 {
 
 
 header {
-    height: 30em;
+    height: 40em;
     width: 100%;
     background-color: #BF5E3B;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 header > img {
     height: 25em;
     width: 100%;
+    border-radius: 20%;
 }
 
 main {
