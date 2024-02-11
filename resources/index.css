@@ -212,6 +212,7 @@ footer > section > p {
     footer > section {
         background-color: whitesmoke;
         margin-top: 2em;
+        border-radius: 10%;
     }
 
     footer > section > h3 {
