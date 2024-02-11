@@ -77,6 +77,22 @@ nav > #title > h2 {
     font-size: 13px;
 }
 
+nav > #hidden-nav {
+    background-color: #F0BA54;
+    position: absolute;
+    z-index: 1;
+    height: 7em;
+    width: 100%;
+    top: 5em;
+    text-align: center;
+    display: none;
+}
+
+nav > #hidden-nav > p {
+    text-transform: uppercase;
+    margin: 0.8em;
+}
+
 /*  H E A D E R  */
 
 

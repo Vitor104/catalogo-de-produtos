@@ -1,18 +1,16 @@
-let before = document.getElementById("before-menu");
-let after = document.getElementById("after-menu");
+let nav = document.getElementById("before-menu");
 
-function beforeNav () {
-    before.style.display = 'none';
-    after.style.display = "block";
+function hddNav() {
+    let navhidden = document.getElementById("hidden-nav");
+
+    if (navhidden.style.display === 'none') {
+        navhidden.style.display = 'block';
+    } else {
+        navhidden.style.display = 'none';
+    }
 }
 
-function afterNav() {
-    after.style.display = 'none';
-    before.style.display = "block";
-}
+nav.addEventListener('click', hddNav);
 
-before.addEventListener('click', beforeNav);
-
-after.addEventListener('click', afterNav);
 
 
