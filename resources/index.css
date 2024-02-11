@@ -103,14 +103,41 @@ header > img {
     border-radius: 50%;
 }
 
+/* M A I N  */
+
 main {
     height: 40em;
     width: 100%;
     background-color: #BB0909;
+    display: flex;
+    align-items: center;
+}
+
+main > section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2em;
+}
+
+main > section > div {
+    height: 9em;
+    width: 8em;
+    background-color: #F0BA54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main > section > div > h2 {
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
 footer {
     height: 10em;
     width: 100%;
-    background-color: #BF5E3B;
+    background-color: #ffffff;
 }
