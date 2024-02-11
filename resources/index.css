@@ -138,6 +138,10 @@ footer > section {
     padding: 1em;
 }
 
+footer > section > p {
+    display: none;
+}
+
 /*  M E D I A   Q U E R I E S*/
 
 
@@ -173,4 +177,51 @@ footer > section {
     nav > #title > h2 {
         font-size: 15px;
     }
+}
+
+@media only screen and (min-width: 1024px) {
+    nav > #hidden-nav > p {
+        font-size: 18px;
+    }
+
+    header > img {
+        height: 25em;
+        width: 50%;
+        border-radius: 50%;
+    }
+
+    main > section > div {
+        height: 15em;
+        width: 15em;
+        transition: 1;
+    }
+
+    main > section > div > h2 {
+        font-size: 20px;
+    }
+
+    main > section > div:hover {
+        background-color: white;
+    }
+
+    footer {
+        flex-direction: row;
+        height: 20em;
+    }
+
+    footer > section {
+        background-color: whitesmoke;
+        margin-top: 2em;
+    }
+
+    footer > section > h3 {
+        font-size: 20px;
+    }
+
+    footer > section > p {
+        display: block;
+        margin: 0.5em;
+        font-size: 18px;
+    }
+
 }
