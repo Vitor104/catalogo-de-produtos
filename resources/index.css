@@ -18,13 +18,13 @@ nav {
     background-color: #BB0909;
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-around;
 }
 
 nav > #before-menu {
     display: flex;
     flex-direction: column;
-    padding: 1em;
+    
 }
 
 nav > #before-menu > .before-click {
@@ -60,10 +60,6 @@ nav > #after-menu > .three {
     transform: translate(0, -11px) rotate(45deg);
 }
 
-nav > img {
-    height: 70%;
-    width: 3em;
-}
 
 nav > #title {
     padding: 0.2em;
@@ -129,6 +125,7 @@ main > section > div {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10%;
 }
 
 main > section > div > h2 {
@@ -136,8 +133,19 @@ main > section > div > h2 {
     font-size: 14px;
 }
 
+/* F O O T E R   */
+
 footer {
-    height: 10em;
+    height: 15em;
     width: 100%;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+footer > section {
+    background-color: #F0BA54;
+    padding: 1em;
 }
