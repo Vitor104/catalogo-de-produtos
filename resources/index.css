@@ -24,7 +24,6 @@ nav {
 nav > #before-menu {
     display: flex;
     flex-direction: column;
-    
 }
 
 nav > #before-menu > .before-click {
@@ -33,33 +32,6 @@ nav > #before-menu > .before-click {
     margin: 0.1em;
     background-color: black;
 }
-
-nav > #after-menu {
-    display: flex;
-    flex-direction: row;
-    padding: 1em;
-    display: none;
-}
-
-nav > #after-menu > .after-click {
-    height: 2em;
-    width: 0.5em;
-    background-color: black;
-    transition: 0.4s;
-}
-
-nav > #after-menu > .one {
-    transform: translate(0, 11px) rotate(-45deg);
-}
-
-nav > #after-menu > .two {
-    opacity: 0;
-}
-
-nav > #after-menu > .three {
-    transform: translate(0, -11px) rotate(45deg);
-}
-
 
 nav > #title {
     padding: 0.2em;
@@ -164,4 +136,41 @@ footer {
 footer > section {
     background-color: #F0BA54;
     padding: 1em;
+}
+
+/*  M E D I A   Q U E R I E S*/
+
+
+@media only screen and (min-width: 660px) {
+    header > img {
+        height: 20em;
+        width: 50%;
+        border-radius: 50%;
+    }
+
+    main > section > div {
+        height: 10em;
+        width: 10em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    nav > #before-menu {
+        display: none;
+    }
+
+    nav > #hidden-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2.5em;
+    }
+
+    nav > #title > h1 {
+        font-size: 20px;
+    }
+    
+    nav > #title > h2 {
+        font-size: 15px;
+    }
 }
