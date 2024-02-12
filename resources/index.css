@@ -226,3 +226,73 @@ footer > section > p {
     }
 
 }
+
+@media only screen and (min-width: 1400px) {
+    nav > #hidden-nav > p {
+        cursor: pointer;
+    }
+
+    header {
+        flex-direction: row-reverse;
+    }
+
+    header > img {
+        width: 30em;
+    }
+
+    main > section > div {
+        height: 18em;
+        width: 20em;
+        border-radius: 50%;
+    }
+
+    main > section > div > h2 {
+        font-size: 25px;
+    }
+
+    footer > section > h3 {
+        font-size: 25px;
+    }
+
+    footer > section > p {
+        display: block;
+        margin: 0.5em;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 2500px) {
+    body {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    nav > #title > h1 {
+        font-size: 30px;
+        color: white;
+    }
+    
+    nav > #title > h2 {
+        font-size: 25px;
+    }
+
+    nav > #hidden-nav > p {
+        font-size: 23px;
+    }
+
+    header > h2 {
+        font-size: 30px;
+    }
+
+    footer {
+        height: 25em;
+    }
+
+    footer > section > h3 {
+        font-size: 30px;
+    }
+
+    footer > section > p {
+        font-size: 25px;
+    }
+}
