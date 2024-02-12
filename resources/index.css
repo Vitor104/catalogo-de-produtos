@@ -69,7 +69,7 @@ nav > #hidden-nav > p {
 
 
 header {
-    height: 40em;
+    height: 50em;
     width: 100%;
     background-color: white;
     border-top: 5px solid white;
@@ -85,6 +85,27 @@ header > img {
     height: 20em;
     width: 100%;
     border-radius: 50%;
+}
+
+header > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+header > div > p {
+    width: 80%;
+    line-height: 1.2em;
+}
+
+header > div > button {
+    width: 50%;
+    padding: 1.5em;
+    border: none;
+    border-radius: 10%;
+    background-color: #F0BA54;
 }
 
 /* M A I N  */
@@ -177,6 +198,11 @@ footer > section > p {
     nav > #title > h2 {
         font-size: 15px;
     }
+
+    header > div {
+        width: 50%;
+        
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -259,6 +285,15 @@ footer > section > p {
         margin: 0.5em;
         font-size: 20px;
     }
+
+    header > div > p {
+       font-size: 20px;        
+    }
+
+    header > div > button {
+        font-size: 20px;
+        border-radius: 15%;
+    }
 }
 
 @media only screen and (min-width: 2500px) {
@@ -295,4 +330,13 @@ footer > section > p {
     footer > section > p {
         font-size: 25px;
     }
+
+    header > div > p {
+        font-size: 25px;        
+     }
+ 
+     header > div > button {
+         font-size: 20px;
+         border-radius: 15%;
+     }
 }
