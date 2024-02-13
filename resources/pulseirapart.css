@@ -47,6 +47,7 @@ main {
     align-items: center;
     justify-content: center;
     gap: 1em;
+    margin-top: 1.5em;
 }
 
 main > section {
