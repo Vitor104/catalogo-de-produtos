@@ -9,6 +9,8 @@ body {
     flex-direction: column;
 }
 
+/* N A V  */
+
 nav {
     height: 5em;
     width: 100%;
@@ -33,4 +35,23 @@ nav > a > div > img {
     height: 90%;
     width: 80%;
     padding: 0.3em;
+}
+
+/* M  A  I  N  */
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+main > section {
+    height: 9em;
+    width: 8em;
+    background-color: blue;
+    border-radius: 10%;
 }
