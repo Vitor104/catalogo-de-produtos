@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    height: 5em;
+    width: 100%;
+    background-color: #BB0909;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+nav > a > div {
+    height: 50%;
+    width: 3em;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > a > div > img {
+    height: 90%;
+    width: 80%;
+    padding: 0.3em;
+}

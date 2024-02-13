@@ -201,7 +201,20 @@ footer > section > p {
 
     header > div {
         width: 50%;
-        
+    }
+
+    main > section {
+        gap: 0;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    main > section > div {
+        border-radius: 0;
+        width: 50%;
+        height: 6em;
+        border: 5px solid white;
     }
 }
 
@@ -216,10 +229,19 @@ footer > section > p {
         border-radius: 50%;
     }
 
+    main > section {
+        gap: 0;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
     main > section > div {
-        height: 15em;
-        width: 15em;
-        transition: 1;
+        border-radius: 0;
+        width: 50%;
+        height: 6em;
+        border: 5px solid white;
+        transition: 1s;
     }
 
     main > section > div > h2 {
@@ -266,10 +288,18 @@ footer > section > p {
         width: 30em;
     }
 
+    main > section {
+        gap: 0;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
     main > section > div {
-        height: 18em;
-        width: 20em;
-        border-radius: 50%;
+        border-radius: 0;
+        width: 50%;
+        height: 6em;
+        border: 5px solid white;
     }
 
     main > section > div > h2 {
@@ -339,4 +369,18 @@ footer > section > p {
          font-size: 20px;
          border-radius: 15%;
      }
+
+     main > section {
+        gap: 0;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    main > section > div {
+        border-radius: 0;
+        width: 50%;
+        height: 6em;
+        border: 5px solid white;
+    }
 }
