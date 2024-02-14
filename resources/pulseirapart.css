@@ -86,3 +86,15 @@ main > section > .detalhes > p {
     font-size: 15px;
     margin-left: 0.5em;
 }
+
+main > section > button {
+    height: 2em;
+    width: 2em;
+    display: inline-block;
+    float: right;
+}
+
+main > section > button > img{
+    height: 2em;
+    width: 2em;
+}
