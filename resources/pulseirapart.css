@@ -105,7 +105,10 @@ main > section > .detalhes > p {
 }
 
 @media only screen and (min-width: 1024px) {
-
+    nav > a > div {
+        top: 1em;
+        height: 3em;
+    }
     main > section {
         width: 20em;
         height: 20em;
