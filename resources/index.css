@@ -178,7 +178,7 @@ footer > section > p {
         border-radius: 50%;
     }
 
-    main > section > div {
+    main > section > a > div {
         height: 10em;
         width: 10em;
     }
@@ -215,7 +215,7 @@ footer > section > p {
         height: 100%;
     }
 
-    main > section > div {
+    main > section > a > div {
         border-radius: 0;
         width: 50%;
         height: 6em;
@@ -241,7 +241,7 @@ footer > section > p {
         height: 100%;
     }
 
-    main > section > div {
+    main > section > a > div {
         border-radius: 0;
         width: 50%;
         height: 6em;
@@ -249,11 +249,11 @@ footer > section > p {
         transition: 1s;
     }
 
-    main > section > div > h2 {
+    main > section > a > div > h2 {
         font-size: 20px;
     }
 
-    main > section > div:hover {
+    main > section > a > div:hover {
         background-color: white;
     }
 
@@ -300,14 +300,14 @@ footer > section > p {
         height: 100%;
     }
 
-    main > section > div {
+    main > section > a > div {
         border-radius: 0;
         width: 50%;
         height: 6em;
         border: 5px solid white;
     }
 
-    main > section > div > h2 {
+    main > section > a > div > h2 {
         font-size: 25px;
     }
 
@@ -382,7 +382,7 @@ footer > section > p {
         height: 100%;
     }
 
-    main > section > div {
+    main > section > a > div {
         border-radius: 0;
         width: 50%;
         height: 6em;

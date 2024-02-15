@@ -88,17 +88,6 @@ main > section > .detalhes > p {
     margin-left: 0.5em;
 }
 
-main > section > button {
-    height: 2em;
-    width: 2em;
-    display: inline-block;
-    float: right;
-}
-
-main > section > button > img{
-    height: 2em;
-    width: 2em;
-}
 
 /* M E D I A  Q U E R I E S  */
 
@@ -112,6 +101,33 @@ main > section > button > img{
         left: 0.5em;
         top: 0.5em;
         height: 4em;
-        
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    main > section {
+        width: 20em;
+        height: 20em;
+    }
+
+    main > section > .foto > img {
+        height: 10em;
+        width: 10em;
+        border-radius: 50%;
+    }
+
+    main > section > .detalhes {
+        margin-top: 5em;
+    }
+
+    main > section > .detalhes > h2 {
+        font-size: 20px;
+        margin-left: 0.8em;
+    }
+    
+    main > section > .detalhes > p {
+        font-size: 17px;
+        margin-left: 0.8em;
     }
 }
