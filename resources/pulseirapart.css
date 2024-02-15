@@ -73,6 +73,7 @@ main > section > .foto > img {
     border-radius: 50%;
 }
 
+
 main > section > .detalhes {
     width: 100%;
 }
@@ -83,7 +84,7 @@ main > section > .detalhes > h2 {
 }
 
 main > section > .detalhes > p {
-    font-size: 15px;
+    font-size: 12px;
     margin-left: 0.5em;
 }
 
@@ -97,4 +98,20 @@ main > section > button {
 main > section > button > img{
     height: 2em;
     width: 2em;
+}
+
+/* M E D I A  Q U E R I E S  */
+
+@media only screen and (min-width: 768px) {
+    nav {
+        justify-content: center;
+    }
+
+    nav > a > div {
+        position: absolute;
+        left: 0.5em;
+        top: 0.5em;
+        height: 4em;
+        
+    }
 }
