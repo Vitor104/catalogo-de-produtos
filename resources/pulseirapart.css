@@ -112,6 +112,12 @@ main > section > .detalhes > p {
     main > section {
         width: 20em;
         height: 20em;
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    main > section:hover {
+        background-color: #F0BA54;
     }
 
     main > section > .foto > img {
