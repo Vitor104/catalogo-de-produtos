@@ -99,8 +99,8 @@ main > section > .detalhes > p {
     nav > a > div {
         position: absolute;
         left: 0.5em;
-        top: 0.5em;
-        height: 4em;
+        top: 1em;
+        height: 3em;
     }
 }
 
