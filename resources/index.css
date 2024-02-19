@@ -181,6 +181,10 @@ footer > section > p {
 
 
 @media only screen and (min-width: 660px) {
+    nav > #hidden-nav > .search {
+        display: none;
+    }
+    
     header > img {
         height: 20em;
         width: 50%;
