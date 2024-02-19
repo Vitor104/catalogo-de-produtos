@@ -53,11 +53,20 @@ nav > #hidden-nav {
     background-color: #F0BA54;
     position: absolute;
     z-index: 1;
-    height: 7em;
+    height: 15em;
     width: 100%;
     top: 5em;
     text-align: center;
     display: none;
+}
+
+nav > #hidden-nav > #itemList > li {
+    display: none;
+}
+
+nav > #hidden-nav > #itemList > li > a {
+    text-decoration: none;
+    color: black;
 }
 
 nav > #hidden-nav > p {
