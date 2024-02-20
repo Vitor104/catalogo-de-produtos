@@ -20,6 +20,10 @@ nav {
     justify-content: space-around;
 }
 
+nav > h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 nav > a > div {
     height: 50%;
@@ -79,13 +83,15 @@ main > section > .detalhes {
 }
 
 main > section > .detalhes > h2 {
-    font-size: 15px;
-    margin-left: 0.5em;
+    font-size: 13px;
+    margin-left: 0.4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 main > section > .detalhes > p {
     font-size: 12px;
     margin-left: 0.5em;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 

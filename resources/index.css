@@ -38,15 +38,18 @@ nav > #title {
     display: flex;
     flex-direction: column;
     text-align: center;
+    
 }
 
 nav > #title > h1 {
     font-size: 17px;
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav > #title > h2 {
     font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav > #hidden-nav {
@@ -60,6 +63,11 @@ nav > #hidden-nav {
     display: none;
 }
 
+nav > #hidden-nav > #searchInput {
+    border: none;
+    border-radius: 5%;
+}
+
 nav > #hidden-nav > #itemList > li {
     display: none;
 }
@@ -67,11 +75,13 @@ nav > #hidden-nav > #itemList > li {
 nav > #hidden-nav > #itemList > li > a {
     text-decoration: none;
     color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav > #hidden-nav > p {
     text-transform: uppercase;
     margin: 0.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /*  H E A D E R  */
@@ -104,9 +114,14 @@ header > div {
     gap: 1em;
 }
 
+header > div > h2 {
+    font-family: "Oswald", sans-serif;
+}
+
 header > div > p {
     width: 80%;
     line-height: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header > div > button {
@@ -115,6 +130,7 @@ header > div > button {
     border: none;
     border-radius: 10%;
     background-color: #F0BA54;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* M A I N  */
@@ -154,6 +170,7 @@ main > section > a > div {
 main > section > a > div > h2 {
     text-transform: uppercase;
     font-size: 14px;
+    font-family: "Playfair Display", serif;
 }
 
 /* F O O T E R   */
@@ -173,8 +190,13 @@ footer > section {
     padding: 1em;
 }
 
+footer > section > h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 footer > section > p {
     display: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /*  M E D I A   Q U E R I E S*/
@@ -245,10 +267,25 @@ footer > section > p {
         font-size: 18px;
     }
 
+    nav > #hidden-nav > p:hover {
+        cursor: pointer;
+        border-bottom: 1px solid #BB0909;
+    }
+
     header > img {
         height: 25em;
         width: 50%;
         border-radius: 50%;
+    }
+
+    header > div > button {
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    header > div > button:hover {
+        background-color: white;
+        border: 1px solid black;
     }
 
     main > section {
