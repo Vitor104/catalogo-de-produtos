@@ -13,12 +13,13 @@ body {
 /* N  A  V  */
 
 nav {
-    height: 5em;
+    height: 3em;
     width: 100%;
     background-color: #BB0909;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
 }
 
 nav > #before-menu {
@@ -58,7 +59,7 @@ nav > #hidden-nav {
     z-index: 1;
     height: 15em;
     width: 100%;
-    top: 5em;
+    top: 3em;
     text-align: center;
     display: none;
 }
@@ -101,8 +102,8 @@ header {
 }
 
 header > img {
-    height: 20em;
-    width: 100%;
+    height: 15em;
+    width: 90%;
     border-radius: 50%;
 }
 
@@ -243,6 +244,7 @@ footer > section > p {
         width: 50%;
     }
 
+    
     main > section {
         gap: 0;
         justify-content: center;
@@ -398,6 +400,15 @@ footer > section > p {
     body {
         width: 50%;
         margin: 0 auto;
+    }
+
+    nav {
+        width: 50%;
+        height: 4em;
+    }
+
+    nav > #hidden-nav {
+        top: 4em;
     }
 
     nav > #title > h1 {
