@@ -10,6 +10,8 @@ function hddNav() {
     }
 }
 
+nav.addEventListener('click', hddNav);
+
 
 document.getElementById('searchInput').addEventListener('input', function (event) {
     const searchTerm = event.target.value.toLowerCase();
@@ -26,7 +28,7 @@ document.getElementById('searchInput').addEventListener('input', function (event
     });
 });
 
-nav.addEventListener('click', hddNav);
+
 
 
 
